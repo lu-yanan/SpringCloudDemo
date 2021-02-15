@@ -29,10 +29,10 @@ public class UserController implements UserAPI {
         return Collections.singletonMap(id.toString(),"mmd");
     }
 
-    /*@GetMapping("/getById")
+    @GetMapping("/getById")
     public String getById2(Integer id) {
         System.out.println("provider_id:" + id);
         return id.toString();
-    }*/
+    }
 
 }
